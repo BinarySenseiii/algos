@@ -14,6 +14,8 @@ const arr2 = [
   { name: 'Harry Styles', goals: 0, assists: 0, points: 0, ppg: 0, ppa: 0, pims: 0 },
 ]
 
-const addItUp = () => {}
+const addItUp = (...args) => {}
 
 const result = addItUp(arr1, arr2)
+
+console.table(result)
